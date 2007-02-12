@@ -1,5 +1,5 @@
 Summary:	GUI library for the xffm applications
-Summary(pl):	Biblioteka GUI dla aplikacji xffm
+Summary(pl.UTF-8):   Biblioteka GUI dla aplikacji xffm
 Name:		xffm-gui
 Version:	4.5.0
 Release:	1
@@ -21,12 +21,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Xffm-gui is the basic GUI library used by xffm applications.
 
-%description -l pl
-Xffm-gui jest podstawow± bibliotek± GUI uøywan± przez aplikacje xffm.
+%description -l pl.UTF-8
+Xffm-gui jest podstawowƒÖ bibliotekƒÖ GUI u≈ºywanƒÖ przez aplikacje xffm.
 
 %package devel
 Summary:	Header files for xffm-gui library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki xffm-gui
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki xffm-gui
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	gtk+2-devel >= 2:2.6.0
@@ -35,8 +35,8 @@ Requires:	libxffm-devel >= 4.5.0
 %description devel
 Header files for xffm-gui library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe biblioteki xffm-gui.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe biblioteki xffm-gui.
 
 %prep
 %setup -q
