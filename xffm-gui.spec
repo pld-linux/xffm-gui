@@ -7,15 +7,16 @@ License:	GPL
 Group:		Libraries
 Source0:	http://dl.sourceforge.net/xffm/%{name}-%{version}.tar.gz
 # Source0-md5:	9a06be7c55896949d42587078643ab69
-URL:		http://xffm.sourceforge.net/xffm-gui.html
 Patch0:		%{name}-asneeded.patch
-BuildRequires:	autoconf
+URL:		http://xffm.sourceforge.net/xffm-gui.html
+BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
 BuildRequires:	gtk+2-devel >= 2:2.6.0
 BuildRequires:	intltool
 BuildRequires:	libtool
 BuildRequires:	libxffm-devel >= 4.5.0
-BuildRequires:	libxml2-devel
+BuildRequires:	libxml2-devel >= 2.4.0
+BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
