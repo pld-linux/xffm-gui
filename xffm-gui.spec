@@ -2,7 +2,7 @@ Summary:	GUI library for the xffm applications
 Summary(pl.UTF-8):	Biblioteka GUI dla aplikacji xffm
 Name:		xffm-gui
 Version:	4.5.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		Libraries
 Source0:	http://dl.sourceforge.net/xffm/%{name}-%{version}.tar.gz
